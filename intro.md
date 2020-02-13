@@ -70,13 +70,16 @@ The [docs](https://learn.jquery.com/using-jquery-core/document-ready/) are a hel
 
 ## Questions
 1. What terminal command would you use to bring jQuery in via npm?
+npm install jquery
 
 2. After you have jQuery brought in as a dependency, how would you access it in a JavaScript file? (think about how we bring `chai` into a project)
+require
 
 3. Why would we bring in jQuery as a `dependency` rather than a `devDependency`?
+because we use it for dom manipulation for our actual app
 
 4. Looking at the documentation, what does `.addClass()` do?
-
+add class what you want to the classlist selected dom ele
 ## Exercises:
 
 Let's get some basic practice with jQuery.
