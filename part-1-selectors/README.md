@@ -13,18 +13,27 @@ Use the [jQuery Documentation](https://api.jquery.com/) to answer the following 
 
 ## Questions:
 1. How do you select a single element in jQuery? How does this differ from vanilla JS?
+with a dollar sign $. you need to do document.querySelector
+.get() for just 1 element
 
 2. What does the jQuery function return? How is it similar or different from a DOM Element object?
+returns an object. Similiar properties and methods, jquery doesnt return you the wrapper dom element it returns the dom element itself
 
 3. How can you select multiple elements with jQuery?
+by passing through the elements in the $() that you want to select
 
 4. How can you select multiple elements with different IDs and classes in one selector expression?
+by adding the has if its and id or . if its a class with the element you are targeting
+so p.Myclass
 
-5. What are the different ways of chaining selectors?
+5. dot notation like : $("#p1").css("color", "red").slideUp(2000).slideDown(2000);
 
 6. How do you select elements based on different attributes?
+by using brackget notation on the element values youre changing
+( "input[value='Hot Fuzz']" )
 
 7. How do you select a checkbox based on its state?
+"input[type=checkbox]" changing the type
 
 
 ## Exercises:
